@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/*
+ Final Project CMIS 410
+		Author: Sierra Thomas
+		Date: Today's datetime
+   
+   Typography and Color Styles for kk_styles2.css
+   
+   Filename: kk_styles2.css
+
+*/
+
+
+/* About Us Images */
+div.gallery {
+	border: 1px solid;
+	position: relative;
+	right: 250px;
+}
+
+div.gallery img {
+	width: 100px;
+	height: auto;
+}
+
+div.desc {
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+	color: black;
+}
+
+responsive {
+	padding: 0 6px;
+	float: left;
+	width:25%;
+}
+
+
+/* Left Column Styles */
+
+section#leftcolumn {
+	clear: left;
+	float: left;
+	width: 50%;
+}
+
+section#rightcolumn {
+	clear: left;
+	float: left;
+	width: 50%;
+}
+
+section#rightcolumn img {
+	clear: left;
+	float: left;
+	width: 100%;
+}
+
+aside {
+	border-style: double;
+	border-radius: 5px;
+	position: absolute;
+	width: 400px;
+	height: 150px;
+	text-align: center;
+	right: 300px;
+	top: 700px;
+}
+
+
+
+/* Flavor Table Elements */
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 25px;
+	background-color: yellow;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: pink;
+	border: 1px solid orange;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+/* Table Styles */ 
+
+table.hours {
+	background: white;
+	border: 10px outset rgb(56, 56, 56);
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 1.25em;
+	position: relative;
+	top: -400px;
+	right: 700px;
+	left: 600px;
+	bottom: auto;
+	height: 300px; 
+	width: 400px;
+}
+
+table.popcorn {
+	background: none;
+	border-style: none;
+	text-align: center;
+	font-size: 1.25em;
+	position: justify;
+	width: 1000px;
+}
+
+
+
+/* Table Cell Elements */
+table.hours th, tr, td{
+	border: 1px solid black;
+}
+
+
+
+/* New Styles Added Below */
+
+
+
+/* ============================
+   Mobile Styles: 0px to 480px
+   ============================
+*/
+@media only screen and (max-width: 480px) {
+
+	
+}
+
+
+/* ================================
+   Tablet Styles: 481px and greater
+   ================================
+*/
+@media only screen and (min-width: 481px) {
+	
+	
+}
+
+
+/* =================================
+   Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px) {
+
+	
+}

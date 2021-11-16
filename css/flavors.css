@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+/*
+ Final Project CMIS 410
+		Author: Sierra Thomas
+		Date: Today's datetime
+   
+   Typography and Color Styles for meetteam.css
+   
+   Filename: flavors.css
+
+*/
+
+/* Table Styles*/
+
+table {
+	width: 75%;
+	height: 65px;
+	text-align: center;
+
+}
+
+th, td, tr {
+	border-bottom: 1px solid black;
+	width: 75%;
+	height: 65px;
+}
