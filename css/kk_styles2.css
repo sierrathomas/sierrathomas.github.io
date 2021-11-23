@@ -12,22 +12,21 @@
 */
 
 
-/* About Us Images */
-div.gallery {
-	border: 1px solid;
-	position: relative;
-	right: 250px;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 25px;
+  border: 15px solid black; 
+  background-color: black;
 }
 
-div.gallery img {
-	width: 100px;
-	height: auto;
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-
-div.desc {
-	text-align: center;
-}
-
 * {
 	box-sizing: border-box;
 	color: black;
@@ -114,7 +113,7 @@ table.popcorn {
 	border-style: none;
 	text-align: center;
 	font-size: 1.25em;
-	position: justify;
+	position: relative;
 	width: 1000px;
 }
 
