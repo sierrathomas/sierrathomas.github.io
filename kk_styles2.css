@@ -21,12 +21,13 @@
   background-color: black;
 }
 
-/* Clear floats after image containers */
+/* Clear floats after image containers */ 
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
+
 * {
 	box-sizing: border-box;
 	color: black;
@@ -70,27 +71,6 @@ aside {
 	top: 700px;
 }
 
-
-
-/* Flavor Table Elements */
-
-.grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-column-gap: 25px;
-	background-color: yellow;
-	padding: 10px;
-}
-
-.grid-item {
-	background-color: pink;
-	border: 1px solid orange;
-	padding: 20px;
-	font-size: 30px;
-	text-align: center;
-}
-
-
 /* Table Styles */ 
 
 table.hours {
@@ -110,18 +90,58 @@ table.hours {
 
 table.popcorn {
 	background: none;
-	border-style: none;
+	border: 10px outset rgb(56, 56, 56);
 	text-align: center;
-	font-size: 1.25em;
+	font-size: 1.5em;
 	position: relative;
-	width: 1000px;
+	width: 1000px; 
 }
+
 
 
 
 /* Table Cell Elements */
 table.hours th, tr, td{
 	border: 1px solid black;
+}
+
+table.popcorn th, tr, td{
+	border: 2px solid black; 
+}
+
+/* Contact survey form*/
+form#survey {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}table.popcorn th, tr, td{
+	border: 2px solid black; 
+} 
+
+form#survey > fieldset {
+  background-color: #F5F5DC;
+  border-radius: 0px;
+  -webkit-flex: 1 1 300px;
+  flex: 1 1 300px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center; 
+  font-size: 1.75em;
+}
+
+
+div.formRow {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: 5px 0px;
+}
+
+div.formRow > * {
+   -webkit-flex: 1 1 150px;
+   flex: 1 1 150px;
 }
 
 
@@ -155,6 +175,7 @@ table.hours th, tr, td{
    =================================
 */
 @media only screen and (min-width: 769px) {
+	
 
 	
 }
