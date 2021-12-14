@@ -125,11 +125,19 @@ form#survey > fieldset {
 }
 
 div.locations {
-	border: 0px;
+	border:none;
 	margin: 0px;
-	text-align: left; 
 	font-size: 1.5em;
 	padding: 5px;
+	
+	display: block;
+	position: relative;
+	top: 0px;
+	bottom: 0px; 
+	left: 225px;
+	right: 50px;
+	margin: 10px;
+	
 
 	
 }
